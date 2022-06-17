@@ -22,7 +22,7 @@ from .helper.telegram_helper.filters import CustomFilters
 from .helper.telegram_helper.button_build import ButtonMaker
 from .modules import authorize, cancel_mirror, mirror_status, mirror, clone, watch, shell, eval, delete, count, leech_settings, list, search
 
-IMAGE_X = "https://telegra.ph/file/ccfc71eaaa7e1c6de4f11.jpg"
+IMAGE_X = "https://telegra.ph/file/d2698f7c85aaf7b02b1e1.jpg"
 
 def stats(update, context):
     if ospath.exists('.git'):
